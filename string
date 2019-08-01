@@ -1,0 +1,67 @@
+## Longest Common Subsequence
+#Recursive Equation
+
+	mat[i][j] = 0  								;	i = 0
+	mat[i][j] = 0								;	j = 0
+
+	mat[i][j] = mat[i-1][j-1] + 1				;	X[i-1] == Y[j-1]
+	mat[i][j] = max(mat[i-1][j], mat[i][j-1]) 	; 	else X[i-1] != Y[j-1]
+
+##Longest Common Substring
+#Recursive Equation
+
+	mat[i][j] = 0  							;	i = 0
+	mat[i][j] = 0							;	j = 0
+
+	mat[i][j] = mat[i-1][j-1] + 1			;	X[i-1] == Y[j-1]
+	mat[i][j] = 0							; 	else X[i-1] != Y[j-1]
+
+
+##Longest Palandromic Subsequence
+#Recursive Equation
+https://leetcode.com/problems/longest-palindromic-subsequence/
+Bottom Up approch
+Intiliaze mat with 0
+
+	mat[i][j] = 1  								;	i == j
+	mat[i][j] = mat[i-1][j-1] + 2				;	X[i-1] == Y[j-1]
+	mat[i][j] = max(mat[i-1][j], mat[i][j-1]) 	; 	else X[i-1] != Y[j-1]1
+
+
+##Longest Palandromic Substring
+#Recursive Equation
+Bottom Up approch
+Intiliaze mat with 0
+
+	mat[i][j] = 1  				;	i == j
+	mat[i][j] = 1				;	X[i-1] == Y[j-1] and mat[i+1][j-1] == 1
+	mat[i][j] = 0 				; 	else X[i-1] != Y[j-1]1
+
+
+
+##Longest Increasing Subsequence
+#Equation
+https://leetcode.com/problems/longest-increasing-subsequence/
+
+arr[N]
+dp= [1]*N
+
+for i in range(0, N):
+	for j in range(0, i):
+		if (arr[i] > arr[j] and dp[i] < dp[j]+1):
+			dp[i] = dp[i] + 1
+
+return max(dp)
+
+##Anagram 
+https://leetcode.com/problems/find-all-anagrams-in-a-string/
+Solve using hash/dict
+
+
+
+##Recursively remove all adjacent duplicates
+using stack
+1. Read the input 
+2. if top of stack != arr[i]:
+	add to stack
+3. else: continue
