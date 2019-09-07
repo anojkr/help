@@ -19,7 +19,7 @@ def longest_substring_with_k_charater(s, m):
 			while len(set(st[start:i+1])) > m:
 				hash_s[st[start]] -= 1
 				start = start + 1
-				w -= 1
+				w = len(set(st[start:i+1]))
 
 	print(st[start:i+1])
 

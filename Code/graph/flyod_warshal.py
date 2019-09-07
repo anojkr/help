@@ -5,20 +5,13 @@ import sys
 import copy
 
 def calculation(matrix, v):
-	# print(matrix)
 	temp_1 = copy.deepcopy(matrix)  
 	temp_2 = copy.deepcopy(matrix)  
-	k = 0
-	while k < v-1:
+	for k in range(0,v):
 		temp_1 = copy.deepcopy(temp_2)  
-		k += 1
 		for i in range(0, v):
 			for j in range(0, v):
 				if i != j:
-					# print(i, j)
-					# print(temp_1[i][j])
-					# print(temp_1[i][k] + temp_1[k][j])
-					# print("\n")
 					temp_2[i][j] = min(temp_1[i][j], temp_1[i][k] + temp_1[k][j])
 
 	for i in range(0, v):

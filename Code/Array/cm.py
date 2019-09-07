@@ -7,6 +7,6 @@ for i in a:
 	else:
 		d[i] += 1
 
-k = sorted(d.items())
+k = sorted(d.items(), key= lambda x: x[0], reverse = True)
 print(d)
 print(k)

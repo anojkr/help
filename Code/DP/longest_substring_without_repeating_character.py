@@ -23,5 +23,5 @@ def longest_substring_without_repeating_character(s):
 	print(m)
 
 if __name__ == '__main__':
-	s = "ABDEFGABEF"
+	s = "ABDEAFGABAEF"
 	longest_substring_without_repeating_character(s)
