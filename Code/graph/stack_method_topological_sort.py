@@ -1,6 +1,3 @@
-
-
-
 def dfs(mat, vis, stack, i):
 	vis[i] = 1
 	for adj in range(len(mat)):

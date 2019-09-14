@@ -1,8 +1,6 @@
 #detect directed cycle in graph using activation record method
 import sys
 
-
-
 def dfs(mat, vis, res, i):
 	N = len(mat)
 	vis[i] = 1

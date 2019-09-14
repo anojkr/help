@@ -12,6 +12,7 @@ def shortest_path(mat, vis, x, y, end_x, end_y, min_dist, dist):
 
 	if (x == end_x  and y == end_y):
 		min_dist[0] = min(min_dist[0], dist)
+		print(min_dist[0])
 		for x in vis:
 			print(x)
 		print('\n')

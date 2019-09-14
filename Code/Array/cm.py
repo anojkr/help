@@ -1,5 +1,5 @@
 from collections import defaultdict
-a = ['b', 'b', 'a', 'a','c','c','c', 'd', 'd','d','d']
+a = ['d', 'c','c','b','b','b','a','a','a','a']
 d = {}
 for i in a:
 	if i not in d:
