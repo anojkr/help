@@ -1,0 +1,67 @@
+https://medium.com/@codingfreak/binary-tree-interview-questions-and-practice-problems-439df7e5ea1f/
+
+X    Check if two given binary trees are identical or not | Iterative & Recursive
+X    Calculate height of a binary tree | Iterative & Recursive
+    Delete given Binary Tree | Iterative & Recursive
+X    Inorder Tree Traversal | Iterative & Recursive
+X    Preorder Tree Traversal | Iterative & Recursive
+X    Postorder Tree Traversal | Iterative & Recursive
+
+X    Level Order Traversal of Binary Tree
+X    Spiral Order Traversal of Binary Tree
+X    Reverse Level Order Traversal of Binary Tree
+X    Print Left View of a Binary Tree
+X    Print Right View of a Binary Tree
+X    Print Bottom View of Binary Tree
+X    Print Top View of Binary Tree
+
+    Find next node in same level for given node in a binary tree
+X    Check if given binary tree is complete binary tree or not
+X    In-place convert given binary tree to its sum tree
+X    Check if given binary tree is a sum tree or not
+X    Determine if given binary tree is a subtree of another binary tree or not
+X    Find diameter of a binary tree
+X    Check if given binary Tree has symmetric structure or not
+X    Convert binary tree to its mirror
+
+X    Find Lowest Common Ancestor (LCA) of two nodes in a binary tree
+X    Print all paths from root to leaf nodes in given binary tree
+X    Find ancestors of given node in a Binary Tree
+    Find the distance between given pairs of nodes in a binary tree
+X    Find Vertical Sum in a given Binary Tree
+X    Print nodes in vertical order of a given Binary Tree (Vertical 
+     Traversal)
+X    Determine if given Binary Tree is a BST or not
+X    Convert a Binary Tree to BST by maintaining its original structure
+X    Find the diagonal sum of given binary tree
+X    Print Diagonal Traversal of Binary Tree
+
+
+
+    Determine if given two nodes are cousins of each other
+    Print cousins of given node in a binary tree
+    Combinations of words formed by replacing given numbers with corresponding alphabets
+    Check if binary tree can be converted to another by doing any no. of swaps of left & right child
+    Print all nodes of a given binary tree in specific order
+
+X   Print corner nodes of every level in binary tree {level order 
+    traversal print first and last node of each level}
+
+
+    In-place convert convert given Binary Tree to Doubly Linked List
+    Sink nodes containing zero to the bottom of the binary tree
+    Convert given binary tree to full tree by removing half nodes
+    Truncate given binary tree to remove nodes which lie on a path having sum less than K
+    Find maximum sum root-to-leaf path in a binary tree
+    Check if given binary tree is height balanced or not
+    Convert normal binary tree to Left-child right-sibling binary tree
+
+X   Invert given Binary Tree | Recursive and Iterative solution
+    Print leaf to root path for every leaf node in a binary tree
+    Find maximum width of given binary tree
+    Build Binary Tree from given Parent array
+    Find all nodes at given distance from leaf nodes in a binary tree
+    Count all subtrees having same value of nodes in a binary tree
+    Find Maximum Difference Between a Node and its Descendants in a Binary Tree
+    Construct a Binary Tree from Ancestor Matrix
+    Calculate height of a binary tree with leaf nodes forming a circular doubly linked list
