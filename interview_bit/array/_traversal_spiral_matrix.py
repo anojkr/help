@@ -18,7 +18,7 @@ def solve():
     t = 0
     res = []
     while i < l and j < c:
-        for k in range(i, c+1):
+        for k in range(j, c+1):
             # print(A[i][k])
             res.append(A[i][k])
         i+=1
