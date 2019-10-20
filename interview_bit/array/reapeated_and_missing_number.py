@@ -1,3 +1,17 @@
+def solve_better_method(A):
+    n = len(A)
+    for i in range(0, n):
+        d = abs[A[i]]-1
+
+        if A[d] > 0:
+            A[d] = -A[d]
+        else:
+            print("repeating number", i+1)
+    for i in range(0, k):
+        if A[k] > 0:
+            print("missing elemnt", i+10)
+            break
+
 
 class Solution:
     # @param A : tuple of integers

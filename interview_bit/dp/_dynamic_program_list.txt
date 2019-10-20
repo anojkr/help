@@ -1,0 +1,34 @@
+
+X    Longest Common Subsequence
+X    Longest Common Sustring
+X    Longest palindromic susequence
+X    Longest palindromic sustring
+X	 Minimum insertion to form palindrom
+X    Longest Increasing Subsequence
+X    Shortest Common Supersequence
+X    Edit Distance
+
+X    Rod Cutting
+X    Coin change problem
+X    Ways to Cover a Distance
+X    Egg Dropping Puzzle
+
+X    Subset Sum Problem
+X    Coin change problem
+X    Minimum coin to get sum
+X    Rectangle maximum size in binary matrix 
+
+
+**    Minimum Partition
+**    Longest Path In Matrix
+X**    0-1 Knapsack Problem
+X**    Word Break Problem
+
+    Boolean Parenthesization Problem
+    Optimal Strategy for a Game
+    Matrix Chain Multiplication
+    Partition problem
+    Maximal Product when Cutting Rope
+    Dice Throw Problem
+    Box Stacking
+

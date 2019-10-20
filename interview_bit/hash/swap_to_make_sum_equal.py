@@ -1,12 +1,15 @@
 Find a pair of elements swapping which makes sum of two arrays same
 
 def solve(A, B):
-	target = (sum(A) - sum(B))/2
-
-
+	goal = (sum(A) - sum(B))/2
 	A.sort()
 	B.sort()
 
+	target = goal/2
+
+	if target == 0:
+		return -1
+		
 	i = 0, j = 0
 
 	while i < len(A) and j < len(B):

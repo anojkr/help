@@ -7,7 +7,7 @@ class Solution:
         h = { }
         for x in A:
             if x in h:
-                h[x]+=2
+                h[x]+=1
             else:
                 h[x] = 1
         count = 0

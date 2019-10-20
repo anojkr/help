@@ -1,10 +1,8 @@
-// A C++ program to check if arr[0..n-1] can be divided 
-// in pairs such that every pair is divisible by k. 
+. 
 #include <bits/stdc++.h> 
 using namespace std; 
 
-// Returns true if arr[0..n-1] can be divided into pairs 
-// with sum divisible by k. 
+
 bool canPairs(int arr[], int n, int k) 
 { 
 	// An odd length array cannot be divided into pairs 

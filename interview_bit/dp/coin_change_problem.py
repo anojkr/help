@@ -1,4 +1,3 @@
-
 # Complete the getWays function below.
 def getWays(n, c):
 
