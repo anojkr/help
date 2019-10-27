@@ -1,5 +1,4 @@
 
-
 def solve(head, n):
 	
 	ref_ptr = head
