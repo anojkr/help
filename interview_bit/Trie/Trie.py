@@ -35,6 +35,17 @@ class Trie:
 			temp = temp.table[idx]
 		return True if temp.is_leaf == True else False
 
+
+	def pattern(self, string):
+		temp = self.root
+
+		for curr in string:
+			idx = self.ordx(curr)
+			if temp.table[idx] == None:
+				return False
+			temp = temp.table[idx]
+		return True if temp.is_leaf == True else False
+
 	def empty(self,curr):
 		tem = curr.table
 		for x in tem:
@@ -42,7 +53,7 @@ class Trie:
 				return False
 		return True
 
-	def delete(self, prev, curr, string, depth):
+	def delete(self,curr, string, depth):
 
 		if curr == None:
 			return None
@@ -58,7 +69,7 @@ class Trie:
 			return curr
 
 		idx = self.ordx(string[depth])
-		curr.table[idx] = self.delete(curr, curr.table[idx], string, depth+1)
+		curr.table[idx] = self.delete(curr.table[idx], string, depth+1)
 
 		if (self.empty(curr) and curr.is_leaf == False):
 			del curr
@@ -66,8 +77,7 @@ class Trie:
 		return curr
 
 	def remove(self, string):
-		self.delete(None, self.root, string, 0)
-
+		self.delete(self.root, string, 0)
 
 
 def result(t):
@@ -75,10 +85,12 @@ def result(t):
 		print('string found')
 	else:
 		print('string not found')
+
+
 if __name__ == '__main__':
 	T = Trie()
-	value = ["the", "a", "there", "answer", "any", 
-             "bye", "their", "hero", "heroplane"]
+	value = ["Hi", "Hello", "HelloWorld", "HiTech", "HiGeek", 
+        "HiTechWorld", "HiTechCity", "HiTechLab"]
 	
 
 	for x in value:
@@ -90,8 +102,8 @@ if __name__ == '__main__':
 	# result(T.search("there"))
 	# result(T.search("the"))
 
-	result(T.search("bye"))
+	# result(T.search("bye"))
 	# T.remove("bye")
-	result(T.search("bye"))
+	# result(T.search("bye"))
 	print(T.root.table)
 	
